@@ -1,0 +1,36 @@
+Nirvana 0.9.5.1
+[X] Fixed styles enqueue order bug created in 0.9.5
+
+Nirvana 0.9.5
+[X] Removed conditional check for 'wp_enqueue_media'
+[X] Removed all 'wp_register_style' and 'wp_register_script' functions. 
+[X] Enqueued all admin scripts and styles via 'admin_enqueue_scripts'
+[X] Added a changelog.txt file
+
+Nirvana 0.9.4
+[X] Adjusted columns (photo frames, padding, margins)
+[X] Fixed multi-line widget titles
+[X] Removed leftover presentation page 'hide background' option
+[X] Default option for columns is now frameless
+[X] Fixed 'more posts' button border on IE
+[x] Fixed sidebar 'dasboard' typo
+
+Nirvana 0.9.3
+[X] Edited 'readme.txt' for new and improved copyright declarations 
+[X] Removed Bebas Neue font (copyright incompatibility)
+[X] Removed hardcoded Javascript found in frontpage.php - moved it to custom-styles.php
+[X] Replaced 'dirname ( __FILE__ )' with 'get_template_directory()'
+
+Nirvana 0.9.2
+[X] Fixed header image responsiveness for full width / normal width
+[X] Fixed header image responsiveness
+[X] Removed leftovers from defaults.php
+[X] Added Russian translation
+
+Nirvana 0.9.1
+[X] Fixed menu alignment
+[X] Fixed header image not starting at top:0
+[X] Fixed topbar height when set to 'fixed'
+[X] Fixed topbar on mobile res below 480px 
+[X] Fixed front columns layout when using custom widgets
+[X] Fixed Presentation Page columns on mobile using custom widgets (nth-child replaced with nth-of-type)
